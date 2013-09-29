@@ -1,0 +1,253 @@
+/* Common style */
+body#bd {
+	color: #4F4F4F;
+	background: url(../../images/movie/body-bg.jpg) no-repeat center top #000000;
+}
+
+img.img-border,
+div.ja-catslwi {
+	background: #E1E1E1;
+	border: 1px solid #B7B7B7;	
+}
+
+/* Joomla default style */
+.article_separator, .article_seperator {
+	background: url(../../images/movie/sep.gif) repeat-x center;
+}
+
+h1.componentheading, .componentheading {
+	background: none;
+	border-bottom: 1px solid #B7B7B7;
+}
+
+.sectiontableheader {
+	background: #2B2B2B;
+}
+
+tr.sectiontableentry0 td,
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td {
+	background: none;
+	border-bottom: 1px solid #B7B7B7;
+}
+
+table.pollstableborder tr.sectiontableentry1 td {
+	background: #E1E1E1;
+}
+
+/* Top spotlight */
+#ja-slideshow {
+	padding: 0px;
+	background: none;
+}
+
+#ja-slideshow-bot {
+	display: none;
+}
+
+#ja-slideshow-wrap {
+	background: url(../../images/movie/container-bg.jpg) no-repeat left bottom #DBDBDB;	
+	padding: 30px;
+}
+
+/* Breadcrumbs */
+#ja-pathway {
+	background: none;
+	border-bottom: 1px solid #B7B7B7;
+}
+
+#ja-col2 div.moduletable,
+#ja-col2 div.moduletable_menu,
+#ja-col2 div.moduletable_hilite,
+#ja-topsl1 div.moduletable,
+#ja-topsl2 div.moduletable,
+#ja-topsl2 div.moduletable_album,
+.highslide img,
+.img_caption img,
+.inputbox {
+	background: #C5C5C5;
+	border: 1px solid #B7B7B7;
+}
+
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable_text h3,
+#ja-col2 div.moduletable h3,
+#ja-topsl1 div.moduletable h3,
+#ja-topsl2 div.moduletable h3,
+#ja-topsl2 div.moduletable_album h3 {
+	background: none;
+	color: #706F68;
+	border-bottom: 1px solid #B7B7B7;
+}
+
+/* Highlight module */
+#ja-col2 div.moduletable_hilite h3 {
+	color: #706F68;
+	border-bottom: 1px solid #2B2B2B;
+}
+
+#ja-col2 div.moduletable_hilite {
+	background: #181818;
+	border: 1px solid #181818;
+}
+
+#ja-col2 div.moduletable_hilite .img-border {
+	background: #000000;
+	border: 1px solid #2B2B2B;
+}
+
+#ja-wrapper {
+	background: url(../../images/movie/mainwrap-bg.jpg) no-repeat center bottom;
+}
+
+#ja-container {
+	background: url(../../images/movie/container-bg.jpg) no-repeat left bottom #DBDBDB;
+}
+
+#ja-container-inner {
+	padding: 30px;
+}
+
+#ja-container-top,
+#ja-container-bot {
+	display: none;
+}
+
+/* Top spotlight */
+#ja-topsl2 div.ja-catslwi-display h3 {
+	color: #DBDBDB !important;
+}
+
+/* Bottom spotlight */
+#ja-botsl {
+	color: #AC9F7F;
+}
+
+/* Footer */
+#ja-footer {
+	color: #AC9F7F;
+}
+
+/* Typography */
+pre, .code {
+	background: #E6E6E6;
+	border-left: 5px solid #2B2B2B;
+}
+
+blockquote span.open {
+	background: url(../../images/movie/so-q.gif) no-repeat left top;
+}
+
+blockquote span.close {
+	background: url(../../images/movie/sc-q.gif) no-repeat bottom right;
+}
+
+/* Note Style */
+p.stickynote {
+	background: url(../../images/icon-sticky.png) no-repeat left top #E1E1E1;
+	border: 1px solid #B7B7B7;
+}
+
+p.download {
+	background: url(../../images/icon-download.png) no-repeat left top #E1E1E1;
+	border: 1px solid #B7B7B7;
+}
+
+/* Check list */
+ul.checklist li {
+	background: url(../../images/movie/icon-checklist.gif) no-repeat 0 6px !important;
+}
+
+/* Check list (star) */
+ul.stars {
+	list-style: none;
+}
+
+ul.stars li {
+	background: url(../../images/movie/icon-star.gif) no-repeat 0 3px;
+}
+
+/* Check list arrow */
+ul.arrow li {
+	background: url(../../images/movie/icon-arrow.gif) no-repeat 3px 7px;
+}
+
+/* Bignumber */
+.bignumber {
+	background: url(../../images/movie/ol-bg.gif) no-repeat top left;
+}
+
+/* Talking box. Thinking box. */
+div.bubble1 div {
+	background: url(../../images/movie/bub1-br.gif) no-repeat bottom right;
+}
+
+div.bubble1 div div {
+	background: url(../../images/movie/bub1-bl.gif) no-repeat bottom left;
+}
+
+div.bubble1 div div div {
+	background: url(../../images/movie/bub1-tr.gif) no-repeat top right;
+}
+
+div.bubble1 div div div div {
+	background: url(../../images/movie/bub1-tl.gif) no-repeat top left;
+}
+
+div.bubble2 div {
+	background: url(../../images/movie/bub2-br.gif) no-repeat bottom right;
+}
+
+div.bubble2 div div {
+	background: url(../../images/movie/bub2-bl.gif) no-repeat bottom left;
+}
+
+div.bubble2 div div div {
+	background: url(../../images/movie/bub2-tr.gif) no-repeat top right;
+}
+
+div.bubble2 div div div div {
+	background: url(../../images/movie/bub2-tl.gif) no-repeat top left;
+}
+
+div.bubble3 div {
+	background: url(../../images/movie/bub3-br.gif) no-repeat bottom right;
+}
+
+div.bubble3 div div {
+	background: url(../../images/movie/bub3-bl.gif) no-repeat bottom left;
+}
+
+div.bubble3 div div div {
+	background: url(../../images/movie/bub3-tr.gif) no-repeat top right;
+}
+
+div.bubble3 div div div div {
+	background: url(../../images/movie/bub3-tl.gif) no-repeat top left;
+}
+
+div.bubble4 div {
+	background: url(../../images/movie/bub4-br.gif) no-repeat bottom right;
+}
+
+div.bubble4 div div {
+	background: url(../../images/movie/bub4-bl.gif) no-repeat bottom left;
+}
+
+div.bubble4 div div div {
+	background: url(../../images/movie/bub4-tr.gif) no-repeat top right;
+}
+
+div.bubble4 div div div div {
+	background: url(../../images/movie/bub4-tl.gif) no-repeat top left;
+}
+
+/* Legend */
+.legend-title {
+	background: #DBDBDB;
+}
+
+.legend {
+	border: 1px solid #B7B7B7;
+}

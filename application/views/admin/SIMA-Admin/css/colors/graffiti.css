@@ -1,0 +1,381 @@
+/* Common style */
+body#bd {
+	background: url(../../images/graffiti/body-bg.jpg) no-repeat center top #000000;
+}
+
+img.img-border,
+div.ja-catslwi {
+	background: #F2E9C6;
+	border: 1px solid #DDCD95;	
+}
+
+a:hover, a:active, a:focus {
+	color: #D28205;
+}
+
+.button {
+	border: 1px solid #5C6E4A;
+	background: #5C6E4A;
+}
+
+/* Joomla default style */
+.article_separator, .article_seperator {
+	background: url(../../images/graffiti/sep.gif) repeat-x center;
+}
+
+a.readon {
+	color: #FFFFFF;
+	background: #5C6E4A;
+}
+
+h1.componentheading, .componentheading {
+	background: none;
+	border-bottom: 1px solid #DDCD95;
+}
+
+.sectiontableheader {
+	background: #2D2D2D;
+}
+
+tr.sectiontableentry0 td,
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td {
+	background: none;
+	border-bottom: 1px solid #DDCD95;
+}
+
+table.pollstableborder tr.sectiontableentry1 td {
+	background: #F2E9C6;
+}
+
+ul.pagination {
+	background: url(../../images/graffiti/sep.gif) repeat-x top;
+}
+
+ul.pagination a {
+	background: #FCF3D6;
+	border: 1px solid #DEC466;
+}
+
+/* Main navigation */
+#ja-mainnavwrap {
+	border-bottom: 5px solid #8E0000;
+}
+
+/* Top spotlight */
+#ja-slideshow {
+	padding-top: 29px;
+	background: url(../../images/graffiti/content-top.png) no-repeat center top;
+}
+
+#ja-slideshow-bot {
+	background: url(../../images/graffiti/content-bot.png) no-repeat center bottom;
+}
+
+#ja-slideshow-wrap {
+	background: url(../../images/graffiti/content-center.png) repeat-y center top;	
+	padding: 0 30px;
+}
+
+/* Breadcrumbs */
+#ja-pathway {
+	background: none;
+	border-bottom: 1px solid #DDCD95;
+}
+
+#ja-col2 div.moduletable,
+#ja-col2 div.moduletable_menu,
+#ja-col2 div.moduletable_hilite,
+#ja-topsl1 div.moduletable,
+#ja-topsl2 div.moduletable,
+#ja-topsl2 div.moduletable_album,
+.highslide img,
+.img_caption img,
+.inputbox {
+	background: #F2E9C6;
+	border: 1px solid #DDCD95;
+}
+
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable_text h3,
+#ja-col2 div.moduletable h3,
+#ja-topsl1 div.moduletable h3,
+#ja-topsl2 div.moduletable h3,
+#ja-topsl2 div.moduletable_album h3 {
+	background: none;
+	color: #5C6E4A;
+	border-bottom: 1px solid #DDCD95;
+}
+
+/* Highlight module */
+#ja-col2 div.moduletable_hilite h3 {
+	color: #F3E6B7;
+	border-bottom: 1px solid #A21D1D;
+}
+
+#ja-col2 div.moduletable_hilite {
+	background: #8E0000;
+	border: 1px solid #8E0000;
+}
+
+#ja-col2 div.moduletable_hilite .img-border {
+	background: #780000;
+	border: 1px solid #A10B0B;
+}
+
+#ja-wrapper {
+	background: none;
+}
+
+#ja-containerwrap, #ja-containerwrap-fr, #ja-containerwrap-fl, #ja-containerwrap-f {
+	padding-bottom: 0;
+}
+
+#ja-container {
+	background: url(../../images/graffiti/container-bg.jpg) no-repeat left bottom ;
+}
+
+#ja-container-inner {
+	padding: 10px 30px 0;
+}
+
+#ja-container-top {
+	background: url(../../images/graffiti/content-top.png) no-repeat left top;
+	height: 29px;
+}
+
+#ja-container {
+	background: url(../../images/graffiti/content-center.png) repeat-y center bottom;
+}
+
+#ja-containerwrap-bot {
+}
+
+#ja-container-bot {
+	background: url(../../images/graffiti/content-bot.png) no-repeat left bottom;
+	height: 36px;
+}
+
+/* Top spotlight */
+#ja-topsl2 div.ja-catslwi-display h3 {
+	color: #DEDFE3 !important;
+}
+
+/* Bottom spotlight */
+#ja-botslwrap {
+}
+
+#ja-botsl {
+	background: none;
+	border-top: 1px solid #2D2D2D;
+	color: #F2E9C6;
+}
+
+#ja-botsl div.moduletable h3 {
+	border-bottom: 1px solid #2D2D2D;
+	color: #666666;
+}
+
+/* JA Bulletin */
+ul.ja-bullettin li {
+	border-bottom: 1px solid #2D2D2D !important;
+	background: none !important;
+}
+
+ul.ja-bullettin span {
+	color: #F2E9C6 !important;
+}
+
+/* Footer */
+#ja-footerwrap {
+}
+
+#ja-footer {
+	background: none !important;
+	border-top: 1px solid #2D2D2D;
+	color: #F2E9C6;
+}
+
+#ja-footer a {
+	color: #9A4600;
+}
+
+#ja-footer a:hover,
+#ja-footer a:focus,
+#ja-footer a:active {
+	color: #D28205;
+}
+
+#ja-footer li {
+	background: url(../../images/arrow2.gif) no-repeat left center;
+}
+
+/* Typography */
+pre, .code {
+	background: #F7EDCC;
+	border-left: 5px solid #9A4600;
+}
+
+blockquote span.open {
+	background: url(../../images/graffiti/so-q.gif) no-repeat left top;
+}
+
+blockquote span.close {
+	background: url(../../images/graffiti/sc-q.gif) no-repeat bottom right;
+}
+
+/* Dropcap */
+.dropcap {
+	color: #9A4600;
+}
+
+/* Note Style */
+p.stickynote {
+	background: url(../../images/icon-sticky.png) no-repeat left top #F7EDCC;
+	border: 1px solid #D6CBA1;
+}
+
+p.download {
+	background: url(../../images/icon-download.png) no-repeat left top #F7EDCC;
+	border: 1px solid #D6CBA1;
+}
+
+/* Check list */
+ul.checklist li {
+	background: url(../../images/graffiti/icon-checklist.gif) no-repeat 0 6px !important;
+}
+
+/* Check list (star) */
+ul.stars {
+	list-style: none;
+}
+
+ul.stars li {
+	background: url(../../images/graffiti/icon-star.gif) no-repeat 0 3px;
+}
+
+/* Check list arrow */
+ul.arrow li {
+	background: url(../../images/graffiti/icon-arrow.gif) no-repeat 3px 7px;
+}
+
+/* Bignumber */
+.bignumber {
+	background: url(../../images/graffiti/ol-bg.gif) no-repeat top left;
+}
+
+/* Talking box. Thinking box. */
+div.bubble1 div {
+	background: url(../../images/graffiti/bub1-br.gif) no-repeat bottom right;
+}
+
+div.bubble1 div div {
+	background: url(../../images/graffiti/bub1-bl.gif) no-repeat bottom left;
+}
+
+div.bubble1 div div div {
+	background: url(../../images/graffiti/bub1-tr.gif) no-repeat top right;
+}
+
+div.bubble1 div div div div {
+	background: url(../../images/graffiti/bub1-tl.gif) no-repeat top left;
+}
+
+div.bubble2 div {
+	background: url(../../images/graffiti/bub2-br.gif) no-repeat bottom right;
+}
+
+div.bubble2 div div {
+	background: url(../../images/graffiti/bub2-bl.gif) no-repeat bottom left;
+}
+
+div.bubble2 div div div {
+	background: url(../../images/graffiti/bub2-tr.gif) no-repeat top right;
+}
+
+div.bubble2 div div div div {
+	background: url(../../images/graffiti/bub2-tl.gif) no-repeat top left;
+}
+
+div.bubble3 div {
+	background: url(../../images/graffiti/bub3-br.gif) no-repeat bottom right;
+}
+
+div.bubble3 div div {
+	background: url(../../images/graffiti/bub3-bl.gif) no-repeat bottom left;
+}
+
+div.bubble3 div div div {
+	background: url(../../images/graffiti/bub3-tr.gif) no-repeat top right;
+}
+
+div.bubble3 div div div div {
+	background: url(../../images/graffiti/bub3-tl.gif) no-repeat top left;
+}
+
+div.bubble4 div {
+	background: url(../../images/graffiti/bub4-br.gif) no-repeat bottom right;
+}
+
+div.bubble4 div div {
+	background: url(../../images/graffiti/bub4-bl.gif) no-repeat bottom left;
+}
+
+div.bubble4 div div div {
+	background: url(../../images/graffiti/bub4-tr.gif) no-repeat top right;
+}
+
+div.bubble4 div div div div {
+	background: url(../../images/graffiti/bub4-tl.gif) no-repeat top left;
+}
+
+/* Legend */
+.legend-title {
+	background: #F3E6B7;
+	color: #9A4600;
+}
+
+.legend {
+	border: 1px solid #D6CBA1;
+}
+
+/* Split menu */
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus,
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	color: #F3E6B7;
+	background: url(../../images/graffiti/arrow-3.gif) no-repeat center bottom;
+}
+
+/* CSS menu */
+#ja-cssmenu li:hover a,
+#ja-cssmenu li.sfhover a,
+#ja-cssmenu li.havechildsfhover a,
+#ja-cssmenu li.havechild-activesfhover a,
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	color: #F3E6B7;
+	background: url(../../images/graffiti/arrow-3.gif) no-repeat center bottom;
+}
+
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu ul li:hover,
+#ja-cssmenu ul li.sfhover,
+#ja-cssmenu ul li.havesubchildsfhover,
+#ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul ul li.sfhover,
+#ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background: #8E0000;
+	color: #FFFFFF !important;
+}

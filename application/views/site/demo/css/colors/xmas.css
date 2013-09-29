@@ -1,0 +1,432 @@
+/* Common style */
+body#bd {
+	background: url(../../images/xmas/body-bg.jpg) repeat left top #2567E1; 
+}
+
+img.img-border,
+div.ja-catslwi {
+	background: #FFFFFF;
+	border: 1px solid #F0F0F0;	
+}
+
+a {
+	color: #2567E1;
+}
+
+a:hover, a:active, a:focus {
+	color: #2567E1;
+}
+
+.button {
+	border: 1px solid #2567E1;
+	background: #2567E1;
+}
+
+/* Joomla default style */
+.article_separator, .article_seperator {
+	background: url(../../images/xmas/sep.gif) repeat-x center;
+}
+
+a.readon {
+	color: #FFFFFF;
+	background: #222222;
+}
+
+h1.componentheading, .componentheading {
+	background: none;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+.sectiontableheader {
+	background: #222222;
+}
+
+tr.sectiontableentry0 td,
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td {
+	background: none;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+table.pollstableborder tr.sectiontableentry1 td {
+	background: #F0F0F0;
+	text-align: right;
+}
+
+ul.pagination {
+	background: url(../../images/xmas/sep.gif) repeat-x top;
+}
+
+ul.pagination a {
+	background: #FBFEFE;
+	border: 1px solid #E1E1E1;
+}
+
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus {
+	color: #2567E1;
+}
+
+h1.logo a {
+	background: url(../../images/xmas/logo.png) no-repeat center ;
+}
+
+/* Main navigation */
+#ja-mainnavwrap {
+	border-bottom: 5px solid #FFFFFF;
+}
+
+/* Top spotlight */
+#ja-slideshow {
+	padding-top: 73px;
+	background: url(../../images/xmas/content-top.png) no-repeat left top;
+}
+
+#ja-slideshow-bot {
+	background: url(../../images/xmas/content-bot.gif) no-repeat center bottom;
+	height: 12px;
+}
+
+#ja-slideshow-wrap {
+	background: #FFFFFF;
+	padding: 21px 30px;
+}
+
+#ja-slideshow-mask {
+	top: 22px;
+}
+
+/* Default menu */
+ul.menu li a:hover,
+ul.menu li a:active,
+ul.menu li a:focus {
+	color: #2567E1;
+	background: url(../../images/xmas/arrow2.gif) no-repeat right 10px;
+}
+
+ul.menu li.active a {
+	color: #2567E1;
+}
+
+ul.menu li li a:hover,
+ul.menu li li a:active,
+ul.menu li li a:focus {
+	color: #2567E1 !important;
+}
+
+/* Breadcrumbs */
+#ja-pathway {
+	background: none;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+#ja-col2 div.moduletable,
+#ja-col2 div.moduletable_menu,
+#ja-col2 div.moduletable_hilite,
+#ja-topsl1 div.moduletable,
+#ja-topsl2 div.moduletable,
+#ja-topsl2 div.moduletable_album,
+.highslide img,
+.img_caption img,
+.inputbox {
+	background: #FCFCFC;
+	border: 1px solid #E1E1E1;
+}
+
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable_text h3,
+#ja-col2 div.moduletable h3,
+#ja-topsl1 div.moduletable h3,
+#ja-topsl2 div.moduletable h3,
+#ja-topsl2 div.moduletable_album h3 {
+	background: none;
+	color: #2567E1;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+/* Highlight module */
+#ja-col2 div.moduletable_hilite h3 {
+	color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+#ja-col2 div.moduletable_hilite {
+	background: #2567E1;
+	border: 1px solid #2567E1;
+}
+
+#ja-col2 div.moduletable_hilite .img-border {
+	background: #2567E1;
+	border: 1px solid #ffffff;
+}
+
+
+#ja-wrapper {
+	background: url(../../images/xmas/wrapper-bg.jpg) no-repeat center top;
+}
+
+#ja-containerwrap, #ja-containerwrap-fr, #ja-containerwrap-fl, #ja-containerwrap-f {
+	padding: 0;
+}
+
+#ja-container {
+	background: url(../../images/xmas/container-bg.jpg) no-repeat left bottom ;
+}
+
+#ja-container-inner {
+	padding: 20px 30px;
+}
+
+#ja-containerwrap-top {
+}
+
+#ja-container-top {
+	background: url(../../images/xmas/content-top.png) no-repeat left top;
+	height: 73px;
+}
+
+#ja-container {
+	background: #FFFFFF;
+}
+
+#ja-containerwrap-bot {
+}
+
+#ja-container-bot {
+	background: url(../../images/xmas/content-bot.gif) no-repeat left top;
+	height: 16px;
+}
+
+/* Top spotlight */
+#ja-topsl2 div.ja-catslwi-display h3 {
+	color: #ffffff !important;
+}
+
+/* Bottom spotlight */
+#ja-botslwrap {
+	background: url(../../images/xmas/pat-1.gif) repeat left top;
+}
+
+#ja-botsl {
+	background: none;
+	border-top: none;
+	color: #FFFFFF;
+}
+
+#ja-botsl div.moduletable h3 {
+	/*border-bottom: 1px solid #CA3D3D;*/
+	color: #FFFFFF;
+}
+
+#ja-botsl a {
+	color: #FFFFFF;
+}
+
+#ja-botsl img.img-border {
+	background: #BD1818;
+	/*border: 1px solid #CA3D3D;*/
+}
+
+/* JA Bulletin */
+ul.ja-bullettin li {
+	/*border-bottom: 1px solid #CA3D3D !important;*/
+	background: none !important;
+}
+
+ul.ja-bullettin li a {
+	color: #FFFFFF;
+}
+
+ul.ja-bullettin span {
+	color: #FFFFFF !important;
+}
+
+/* Footer */
+#ja-footerwrap {
+	background: url(../../images/xmas/pat-1.gif) repeat left top;
+}
+
+#ja-footer {
+	background: none !important;
+	/*border-top: 1px solid #CA3D3D;*/
+	color: #FFFFFF;
+}
+
+#ja-footer a {
+	color: #FFFFFF;
+}
+
+#ja-footer a:hover,
+#ja-footer a:focus,
+#ja-footer a:active {
+	color: #FFFFFF;
+}
+
+/* Typography */
+pre, .code {
+	background: #FFFFCC;
+	border-left: 5px solid #222222;
+}
+
+blockquote span.open {
+	background: url(../../images/xmas/so-q.gif) no-repeat left top;
+}
+
+blockquote span.close {
+	background: url(../../images/xmas/sc-q.gif) no-repeat bottom right;
+}
+
+/* Dropcap */
+.dropcap {
+	color: #2567E1;
+}
+
+/* Note Style */
+p.stickynote {
+	background: url(../../images/icon-sticky.png) no-repeat left top #FFFFFF;
+	border: 1px solid #E1E1E1;
+}
+
+p.download {
+	background: url(../../images/icon-download.png) no-repeat left top #FFFFFF;
+	border: 1px solid #E1E1E1;
+}
+
+/* Check list */
+ul.checklist li {
+	background: url(../../images/xmas/icon-checklist.gif) no-repeat 0 6px !important;
+}
+
+/* Check list (star) */
+ul.stars {
+	list-style: none;
+}
+
+ul.stars li {
+	background: url(../../images/xmas/icon-star.gif) no-repeat 0 3px;
+}
+
+/* Check list arrow */
+ul.arrow li {
+	background: url(../../images/xmas/icon-arrow.gif) no-repeat 3px 7px;
+}
+
+/* Bignumber */
+.bignumber {
+	background: url(../../images/xmas/ol-bg.gif) no-repeat top left;
+}
+
+/* Talking box. Thinking box. */
+div.bubble1 div {
+	background: url(../../images/xmas/bub1-br.gif) no-repeat bottom right;
+}
+
+div.bubble1 div div {
+	background: url(../../images/xmas/bub1-bl.gif) no-repeat bottom left;
+}
+
+div.bubble1 div div div {
+	background: url(../../images/xmas/bub1-tr.gif) no-repeat top right;
+}
+
+div.bubble1 div div div div {
+	background: url(../../images/xmas/bub1-tl.gif) no-repeat top left;
+}
+
+div.bubble2 div {
+	background: url(../../images/xmas/bub2-br.gif) no-repeat bottom right;
+}
+
+div.bubble2 div div {
+	background: url(../../images/xmas/bub2-bl.gif) no-repeat bottom left;
+}
+
+div.bubble2 div div div {
+	background: url(../../images/xmas/bub2-tr.gif) no-repeat top right;
+}
+
+div.bubble2 div div div div {
+	background: url(../../images/xmas/bub2-tl.gif) no-repeat top left;
+}
+
+div.bubble3 div {
+	background: url(../../images/xmas/bub3-br.gif) no-repeat bottom right;
+}
+
+div.bubble3 div div {
+	background: url(../../images/xmas/bub3-bl.gif) no-repeat bottom left;
+}
+
+div.bubble3 div div div {
+	background: url(../../images/xmas/bub3-tr.gif) no-repeat top right;
+}
+
+div.bubble3 div div div div {
+	background: url(../../images/xmas/bub3-tl.gif) no-repeat top left;
+}
+
+div.bubble4 div {
+	background: url(../../images/xmas/bub4-br.gif) no-repeat bottom right;
+}
+
+div.bubble4 div div {
+	background: url(../../images/xmas/bub4-bl.gif) no-repeat bottom left;
+}
+
+div.bubble4 div div div {
+	background: url(../../images/xmas/bub4-tr.gif) no-repeat top right;
+}
+
+div.bubble4 div div div div {
+	background: url(../../images/xmas/bub4-tl.gif) no-repeat top left;
+}
+
+/* Legend */
+.legend-title {
+	background: #FFFFFF;
+	color: #2567E1;
+}
+
+.legend {
+	border: 1px solid #E1E1E1;
+}
+
+/* Split menu */
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus,
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	color: #FFFFFF;
+	background: url(../../images/xmas/arrow-3.gif) no-repeat center bottom;
+}
+
+/* CSS menu */
+#ja-cssmenu li:hover a,
+#ja-cssmenu li.sfhover a,
+#ja-cssmenu li.havechildsfhover a,
+#ja-cssmenu li.havechild-activesfhover a,
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	color: #FFFFFF;
+	background: url(../../images/xmas/arrow-3.gif) no-repeat center bottom;
+}
+
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu ul li:hover,
+#ja-cssmenu ul li.sfhover,
+#ja-cssmenu ul li.havesubchildsfhover,
+#ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul ul li.sfhover,
+#ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background: #2567E1;
+	color: #FFFFFF !important;
+}

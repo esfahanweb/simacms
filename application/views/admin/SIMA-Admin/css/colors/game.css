@@ -1,0 +1,424 @@
+/* Common style */
+body#bd {
+	background: url(../../images/game/body-bg.jpg) repeat left top #8EDBF9; 
+}
+
+img.img-border,
+div.ja-catslwi {
+	background: #D6EEEF;
+	border: 1px solid #9FC0CE;	
+}
+
+a {
+	color: #1F969A;
+}
+
+a:hover, a:active, a:focus {
+	color: #FF8F3F;
+}
+
+.button {
+	border: 1px solid #004042;
+	background: #004042;
+}
+
+/* Joomla default style */
+.article_separator, .article_seperator {
+	background: url(../../images/game/sep.gif) repeat-x center;
+}
+
+a.readon {
+	color: #FFFFFF;
+	background: #004042;
+}
+
+h1.componentheading, .componentheading {
+	background: none;
+	border-bottom: 1px solid #C1DCDD;
+}
+
+.sectiontableheader {
+	background: #004042;
+}
+
+tr.sectiontableentry0 td,
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td {
+	background: none;
+	border-bottom: 1px solid #C1DCDD;
+}
+
+table.pollstableborder tr.sectiontableentry1 td {
+	background: #FBFEFE;
+}
+
+ul.pagination {
+	background: url(../../images/game/sep.gif) repeat-x top;
+}
+
+ul.pagination a {
+	background: #FBFEFE;
+	border: 1px solid #C1DCDD;
+}
+
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus {
+	color: #1F969A;
+}
+
+h1.logo a {
+	background: url(../../images/game/logo.png) no-repeat center;
+}
+
+/* Main navigation */
+#ja-mainnavwrap {
+	border-bottom: 5px solid #20777A;
+}
+
+/* Top spotlight */
+#ja-slideshow {
+	padding-top: 9px;
+	background: url(../../images/game/content-top.gif) no-repeat center top;
+}
+
+#ja-slideshow-bot {
+	display: none;
+}
+
+#ja-slideshow-wrap {
+	background: #F1F8FE;
+	padding: 21px 30px;
+}
+
+/* Default menu */
+ul.menu li a:hover,
+ul.menu li a:active,
+ul.menu li a:focus {
+	color: #FF8F3F;
+	background: url(../../images/game/arrow2.gif) no-repeat 5px 10px;
+}
+
+ul.menu li.active a {
+	color: #FF8F3F;
+}
+
+ul.menu li li a:hover,
+ul.menu li li a:active,
+ul.menu li li a:focus {
+	color: #FF8F3F !important;
+}
+
+/* Breadcrumbs */
+#ja-pathway {
+	background: none;
+	border-bottom: 1px solid #C1DCDD;
+}
+
+#ja-col2 div.moduletable,
+#ja-col2 div.moduletable_menu,
+#ja-col2 div.moduletable_hilite,
+#ja-topsl1 div.moduletable,
+#ja-topsl2 div.moduletable,
+#ja-topsl2 div.moduletable_album,
+.highslide img,
+.img_caption img,
+.inputbox {
+	background: #C1DCDD;
+	border: 1px solid #9FC0CE;
+}
+
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable_text h3,
+#ja-col2 div.moduletable h3,
+#ja-topsl1 div.moduletable h3,
+#ja-topsl2 div.moduletable h3,
+#ja-topsl2 div.moduletable_album h3 {
+	background: none;
+	color: #3B672A;
+	border-bottom: 1px solid #9FC0CE;
+}
+
+/* Highlight module */
+#ja-col2 div.moduletable_hilite h3 {
+	color: #24777A;
+	border-bottom: 1px solid #24777A;
+}
+
+#ja-col2 div.moduletable_hilite {
+	background: #004042;
+	border: 1px solid #004042;
+}
+
+#ja-col2 div.moduletable_hilite .img-border {
+	background: #004042;
+	border: 1px solid #045456;
+}
+
+#ja-wrapper {
+	background: url(../../images/game/wrapper-bg.jpg) no-repeat center top;
+}
+
+#ja-containerwrap, #ja-containerwrap-fr, #ja-containerwrap-fl, #ja-containerwrap-f {
+	background: url(../../images/game/cw-bg.jpg) repeat-x left bottom;
+}
+
+#ja-container {
+	background: url(../../images/game/container-bg.jpg) no-repeat left bottom ;
+}
+
+#ja-container-inner {
+	padding: 20px 30px;
+}
+
+#ja-containerwrap-top {
+}
+
+#ja-container-top {
+	background: url(../../images/game/content-top.png) no-repeat left top;
+	height: 74px;
+}
+
+#ja-container {
+	background: #F1F8FE;
+}
+
+#ja-containerwrap-bot {
+	height: 50px;
+}
+
+#ja-container-bot {
+	background: none;
+}
+
+/* Top spotlight */
+#ja-topsl2 div.ja-catslwi-display h3 {
+	color: #1F969A !important;
+}
+
+/* Bottom spotlight */
+#ja-botslwrap {
+	background: url(../../images/game/pat-1.gif) repeat left top;
+}
+
+#ja-botsl {
+	background: none;
+	border-top: none;
+	color: #F3FAF2;
+}
+
+#ja-botsl div.moduletable h3 {
+	border-bottom: 1px solid #3B672A;
+	color: #3B672A;
+}
+
+#ja-botsl a {
+	color: #FFFFFF;
+}
+
+/* JA Bulletin */
+ul.ja-bullettin li {
+	border-bottom: 1px solid #5AA64B !important;
+	background: none !important;
+}
+
+ul.ja-bullettin li a {
+	color: #F3FAF2;
+}
+
+ul.ja-bullettin span {
+	color: #3B672A !important;
+}
+
+/* Footer */
+#ja-footerwrap {
+	background: url(../../images/game/pat-1.gif) repeat left top;
+}
+
+#ja-footer {
+	background: none !important;
+	border-top: 1px solid #D6EEEF;
+	color: #FFFFFF;
+}
+
+#ja-footer a {
+	color: #F3FAF2;
+}
+
+#ja-footer a:hover,
+#ja-footer a:focus,
+#ja-footer a:active {
+	color: #FFFFFF;
+}
+
+#ja-footer li {
+	background: url(../../images/game/arrow21.gif) no-repeat left center;
+}
+
+/* Typography */
+pre, .code {
+	background: #FBFEFE;
+	border-left: 5px solid #1F969A;
+}
+
+blockquote span.open {
+	background: url(../../images/game/so-q.gif) no-repeat left top;
+}
+
+blockquote span.close {
+	background: url(../../images/game/sc-q.gif) no-repeat bottom right;
+}
+
+/* Dropcap */
+.dropcap {
+	color: #1F969A;
+}
+
+/* Note Style */
+p.stickynote {
+	background: url(../../images/icon-sticky.png) no-repeat left top #FBFEFE;
+	border: 1px solid #E3E9EF;
+}
+
+p.download {
+	background: url(../../images/icon-download.png) no-repeat left top #FBFEFE;
+	border: 1px solid #E3E9EF;
+}
+
+/* Check list */
+ul.checklist li {
+	background: url(../../images/game/icon-checklist.gif) no-repeat 0 6px !important;
+}
+
+/* Check list (star) */
+ul.stars {
+	list-style: none;
+}
+
+ul.stars li {
+	background: url(../../images/game/icon-star.gif) no-repeat 0 3px;
+}
+
+/* Check list arrow */
+ul.arrow li {
+	background: url(../../images/game/icon-arrow.gif) no-repeat 3px 7px;
+}
+
+/* Bignumber */
+.bignumber {
+	background: url(../../images/game/ol-bg.gif) no-repeat top left;
+}
+
+/* Talking box. Thinking box. */
+div.bubble1 div {
+	background: url(../../images/game/bub1-br.gif) no-repeat bottom right;
+}
+
+div.bubble1 div div {
+	background: url(../../images/game/bub1-bl.gif) no-repeat bottom left;
+}
+
+div.bubble1 div div div {
+	background: url(../../images/game/bub1-tr.gif) no-repeat top right;
+}
+
+div.bubble1 div div div div {
+	background: url(../../images/game/bub1-tl.gif) no-repeat top left;
+}
+
+div.bubble2 div {
+	background: url(../../images/game/bub2-br.gif) no-repeat bottom right;
+}
+
+div.bubble2 div div {
+	background: url(../../images/game/bub2-bl.gif) no-repeat bottom left;
+}
+
+div.bubble2 div div div {
+	background: url(../../images/game/bub2-tr.gif) no-repeat top right;
+}
+
+div.bubble2 div div div div {
+	background: url(../../images/game/bub2-tl.gif) no-repeat top left;
+}
+
+div.bubble3 div {
+	background: url(../../images/game/bub3-br.gif) no-repeat bottom right;
+}
+
+div.bubble3 div div {
+	background: url(../../images/game/bub3-bl.gif) no-repeat bottom left;
+}
+
+div.bubble3 div div div {
+	background: url(../../images/game/bub3-tr.gif) no-repeat top right;
+}
+
+div.bubble3 div div div div {
+	background: url(../../images/game/bub3-tl.gif) no-repeat top left;
+}
+
+div.bubble4 div {
+	background: url(../../images/game/bub4-br.gif) no-repeat bottom right;
+}
+
+div.bubble4 div div {
+	background: url(../../images/game/bub4-bl.gif) no-repeat bottom left;
+}
+
+div.bubble4 div div div {
+	background: url(../../images/game/bub4-tr.gif) no-repeat top right;
+}
+
+div.bubble4 div div div div {
+	background: url(../../images/game/bub4-tl.gif) no-repeat top left;
+}
+
+/* Legend */
+.legend-title {
+	background: #F1F8FE;
+	color: #1F969A;
+}
+
+.legend {
+	border: 1px solid #E3E9EF;
+}
+
+/* Split menu */
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus,
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	color: #24777A;
+	background: url(../../images/game/arrow-3.gif) no-repeat center bottom;
+}
+
+/* CSS menu */
+#ja-cssmenu li:hover a,
+#ja-cssmenu li.sfhover a,
+#ja-cssmenu li.havechildsfhover a,
+#ja-cssmenu li.havechild-activesfhover a,
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	color: #24777A;
+	background: url(../../images/game/arrow-3.gif) no-repeat center bottom;
+}
+
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu ul li:hover,
+#ja-cssmenu ul li.sfhover,
+#ja-cssmenu ul li.havesubchildsfhover,
+#ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul ul li.sfhover,
+#ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background: #004042;
+	color: #FFFFFF !important;
+}

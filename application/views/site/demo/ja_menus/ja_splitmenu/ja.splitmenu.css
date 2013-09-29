@@ -1,0 +1,54 @@
+/*------------------------------------------------------------------------
+# Ja Zinc J15 - Version 1.0 - Licence Owner JA108425
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# This file may not be redistributed in whole or significant part.
+-------------------------------------------------------------------------*/
+
+/* MAIN NAVIGATION
+----------------------------------------------------------- */
+#ja-splitmenu {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-splitmenu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-splitmenu li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+#ja-splitmenu a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	font-size: 100%;
+	color: #777777;
+	padding: 10px 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	color: #9A4600;
+	background: url(../../images/arrow-3.gif) no-repeat center bottom;
+}
+
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	color: #9A4600;
+	background: url(../../images/arrow-3.gif) no-repeat center bottom;
+}

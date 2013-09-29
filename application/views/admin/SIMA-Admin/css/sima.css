@@ -1,0 +1,31 @@
+/* Icons */
+.mr10 { margin-right: 10px; }
+
+/* DataTables display */
+table.display { margin: 0 auto; width: 100%; clear: both; border-collapse: collapse; }
+table.display tfoot th { padding: 3px 0px 3px 10px; font-weight: bold; font-weight: normal; }
+table.display tr.heading2 td { border-bottom: 1px solid #aaa; }
+table.display td { padding: 8px 10px; text-align: center;}
+
+/* DataTables row classes*/
+table.display tr.odd.gradeA { background-color: #ddffdd; }
+table.display tr.even.gradeA { background-color: #eeffee; }
+table.display tr { border-bottom: 1px solid #e7e7e7; }
+table.display td { border-left: 1px solid #e7e7e7; }
+table.display td:first-child { border-left: none; }
+table.display tr.odd.gradeA { background-color: #fafafa; }
+table.display tr.even.gradeA { background-color: #f5f5f5; }
+table.display tr.odd.gradeC { background-color: #ddddff; }
+table.display tr.even.gradeC { background-color: #eeeeff; }
+table.display tr.odd.gradeX { background-color: #ffdddd; }
+table.display tr.even.gradeX { background-color: #ffeeee; }
+table.display tr.odd.gradeU { background-color: #ddd; }
+table.display tr.even.gradeU { background-color: #eee; }
+
+table.display thead th { padding: 4px 0px 3px 10px; cursor: pointer; * cursor: hand; font-size: 11px; }
+
+table.display thead th div.DataTables_sort_wrapper { position: relative; padding-right: 20px; color: #878787; }
+table.display thead th div.DataTables_sort_wrapper span { position: absolute; top: 50%; margin-top: -8px; right: 5px; }
+
+table.display tr.even.row_selected td { background-color: #B0BED9; }
+table.display tr.odd.row_selected td { background-color: #9FAFD1; }

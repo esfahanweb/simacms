@@ -1,0 +1,296 @@
+/* --------------------------------------------------------------
+   GLOBAL
+-------------------------------------------------------------- */
+
+body {
+	
+}
+
+form {
+	margin: 0px;
+}
+
+body,td,input,select,textarea {
+	font-family: Tahoma;
+	font-size: 8pt;
+}
+
+a {
+	color: #E1E1E1;
+	text-decoration: none;
+}
+
+a:hover {
+color: #E1E1E1;
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 730px;
+	border: 0px;
+	padding: 5px;
+	border-collapse: collapse;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* --------------------------------------------------------------
+   HEADINGS
+-------------------------------------------------------------- */
+
+.heading {
+	font-family: Tahoma;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #65A5E6;
+}
+
+.heading2 {
+	font-family: Tahoma;
+	font-size: 8pt;
+	font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.heading3 {
+    font-family: Tahoma;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #16679F;
+}
+
+/* --------------------------------------------------------------
+   INFO BOXES
+-------------------------------------------------------------- */
+
+.contentbox {
+	width: 75%;
+	text-align: center;
+	background-color: #f7f7f7;
+	border: 1px dashed #cccccc;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.errorbox {
+	border: 1px dashed #cc0000;
+	font-weight: bold;
+	background-color: #FBEEEB;
+	text-align: center;
+	width: 90%;
+	padding: 10px;
+	color: #cc0000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.successbox {
+	border: 1px dashed #66CC00;
+	font-weight: bold;
+	background-color: #DDFFC6;
+	text-align: center;
+	width: 90%;
+	padding: 10px;
+	color: #009933;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* --------------------------------------------------------------
+   User AREA NAVBAR
+-------------------------------------------------------------- */
+
+.Userarealinks {
+    background-color: #FDFCDD;
+    padding: 10px;
+}
+
+.Userarealinks a {
+	color: #555555;
+}
+
+/* --------------------------------------------------------------
+   TABLES
+-------------------------------------------------------------- */
+
+table.topnavbar {
+	width: 100%;
+}
+
+tr.topnavbar {
+	background-color: #efefef;
+	font-weight:bold;
+	text-align: center;
+}
+
+tr.topnavbar a {
+	color: #000000;
+	text-decoration: none;
+}
+
+tr.topnavbar a:hover {
+	color: #666666;
+}
+
+table.frame {
+	width: 100%;
+	border: 1px solid #E1E1E1;
+	padding: 0px;
+}
+
+.fieldarea {
+	background-color: #ffffff;
+	text-align: right;
+}
+
+.Userareatable {
+	width: 100%;
+	background-color: #E1E1E1;
+}
+
+tr.Userareatableheading {
+	background-color: #efefef;
+	font-weight: bold;
+	text-align: center;
+}
+
+tr.Userareatableactive {
+	background-color: #ffffff;
+	text-align: center;
+}
+
+tr.Userareatablepending {
+	background-color: #FFFFE2;
+	text-align: center;
+}
+
+tr.Userareatablesuspended {
+	background-color: #E9FFD2;
+	text-align: center;
+}
+
+tr.Userareatableterminated {
+	background-color: #FFE1E1;
+	text-align: center;
+}
+
+/* --------------------------------------------------------------
+   NETWORK ISSUES
+-------------------------------------------------------------- */
+
+.networkissuessummary {
+    background-color: #f6f6f6;
+    border: 1px dashed #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.networkissuesopen {
+    font-size: 16px;
+    font-weight: bold;
+    color: #65CC00;
+    padding-right: 20px;
+}
+
+.networkissuesscheduled {
+    font-size: 16px;
+    font-weight: bold;
+    color: #EEDD00;
+    padding-right: 20px;
+}
+
+.networkissuesclosed {
+    font-size: 16px;
+    font-weight: bold;
+    color: #888888;
+}
+
+.networkissuedescription {
+    border-left: 5px solid #efefef;
+    padding: 20px;
+    padding-top: 1px;
+}
+
+.networkissueaffected {
+    background-color: #FDFCDD;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* --------------------------------------------------------------
+   SUPPORT TICKETS
+-------------------------------------------------------------- */
+
+.Userticketreplyheader {
+    margin-top: 20px;
+    background-color: #92BDEA;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 4px 20px 4px 20px;
+}
+
+.Userticketreply {
+    min-height: 80px;
+    background-color: #ffffff;
+    background-image: url('images/Userticketreplybg.gif');
+    background-repeat: repeat-x;
+    padding: 10px;
+}
+
+.adminticketreplyheader {
+    margin-top: 20px;
+    background-color: #888888;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 4px 20px 4px 20px;
+}
+
+.adminticketreply {
+    min-height: 80px;
+    background-color: #ffffff;
+    background-image: url('images/adminticketreplybg.gif');
+    background-repeat: repeat-x;
+    padding: 10px;
+}
+
+.closeticket {
+    border: 1px dashed #cc0000;
+	font-weight: bold;
+	background-color: #FBEEEB;
+    color: #cc0000;
+}
+
+/* --------------------------------------------------------------
+   TEXT COLORS
+-------------------------------------------------------------- */
+
+.textblack {
+	color: #000000;
+}
+
+.textblue {
+    color: #224488;
+}
+
+.textgreen {
+	color: #779500;
+}
+
+.textgrey {
+	color: #888888;
+}
+
+.textgold {
+    color: #ffbb55;
+}
+
+.textorange {
+	color: #ff6600;
+}
+
+.textred {
+	color: #cc0000;
+}

@@ -1,0 +1,385 @@
+/* Common style */
+body#bd {
+	background: url(../../images/grass/body-bg.jpg) repeat left top;
+}
+
+img.img-border,
+div.ja-catslwi {
+	background: #D8E7C3;
+	border: 1px solid #BECC99;	
+}
+
+a:hover, a:active, a:focus {
+	color: #507225;
+}
+
+.button {
+	border: 1px solid #324D08;
+	background: #324D08;
+}
+
+/* Joomla default style */
+.article_separator, .article_seperator {
+	background: url(../../images/grass/sep.gif) repeat-x center;
+}
+
+a.readon {
+	color: #FFFFFF;
+	background: #324D08;
+}
+
+h1.componentheading, .componentheading {
+	background: none;
+	border-bottom: 1px solid #BECC99;
+}
+
+.sectiontableheader {
+	background: #324D08;
+}
+
+tr.sectiontableentry0 td,
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td {
+	background: none;
+	border-bottom: 1px solid #BECC99;
+}
+
+table.pollstableborder tr.sectiontableentry1 td {
+	background: #D8E7C3;
+}
+
+ul.pagination {
+	background: url(../../images/grass/sep.gif) repeat-x top;
+}
+
+ul.pagination a {
+	background: #E8E8EB;
+	border: 1px solid #B7B7B7;
+}
+
+/* Main navigation */
+#ja-mainnavwrap {
+	border-bottom: 5px solid #324D08;
+}
+
+/* Top spotlight */
+#ja-slideshow {
+	padding-top: 29px;
+	background: url(../../images/grass/content-top.png) no-repeat center top;
+}
+
+#ja-slideshow-bot {
+	background: url(../../images/grass/content-bot.png) no-repeat center bottom;
+	height: 30px;
+}
+
+#ja-slideshow-wrap {
+	background: url(../../images/grass/content-center.jpg) repeat-y center top;	
+	padding: 0 30px;
+}
+
+/* Breadcrumbs */
+#ja-pathway {
+	background: none;
+	border-bottom: 1px solid #BECC99;
+}
+
+#ja-col2 div.moduletable,
+#ja-col2 div.moduletable_menu,
+#ja-col2 div.moduletable_hilite,
+#ja-topsl1 div.moduletable,
+#ja-topsl2 div.moduletable,
+#ja-topsl2 div.moduletable_album,
+.highslide img,
+.img_caption img,
+.inputbox {
+	background: #D8E7C3;
+	border: 1px solid #BECC99;
+}
+
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable_text h3,
+#ja-col2 div.moduletable h3,
+#ja-topsl1 div.moduletable h3,
+#ja-topsl2 div.moduletable h3,
+#ja-topsl2 div.moduletable_album h3 {
+	background: none;
+	color: #507225;
+	border-bottom: 1px solid #BECC99;
+}
+
+/* Highlight module */
+#ja-col2 div.moduletable_hilite h3 {
+	color: #AEC29A;
+	border-bottom: 1px solid #405F10;
+}
+
+#ja-col2 div.moduletable_hilite {
+	background: #324D08;
+	border: 1px solid #324D08;
+}
+
+#ja-col2 div.moduletable_hilite .img-border {
+	background: #324D08;
+	border: 1px solid #405F10;
+}
+
+#ja-wrapper {
+	background: none;
+}
+
+#ja-containerwrap, #ja-containerwrap-fr, #ja-containerwrap-fl, #ja-containerwrap-f {
+	background: url(../../images/grass/body-bg.jpg) repeat left top;
+	padding-bottom: 0;
+}
+
+#ja-container {
+	background: url(../../images/grass/container-bg.jpg) no-repeat left bottom ;
+}
+
+#ja-container-inner {
+	padding: 10px 30px 0;
+}
+
+#ja-container-top {
+	background: url(../../images/grass/content-top.png) no-repeat left top;
+	height: 29px;
+}
+
+#ja-container {
+	background: url(../../images/grass/content-center.jpg) repeat-y center bottom;
+}
+
+#ja-containerwrap-bot {
+	background: url(../../images/grass/cw-bot.jpg) repeat-x left bottom;
+	height: 70px;
+}
+
+#ja-container-bot {
+	background: url(../../images/grass/content-bot.png) no-repeat left bottom;
+}
+
+/* Top spotlight */
+#ja-topsl2 div.ja-catslwi-display h3 {
+	color: #DEDFE3 !important;
+}
+
+/* Bottom spotlight */
+#ja-botslwrap {
+	background: url(../../images/grass/mainwrap-bg.jpg) repeat-x center top;
+}
+
+#ja-botsl {
+	background: none;
+	border-top: 1px solid #AEC29A;
+	color: #405F10;
+}
+
+#ja-botsl div.moduletable h3 {
+	border-bottom: 1px solid #AEC29A;
+}
+
+/* JA Bulletin */
+ul.ja-bullettin li {
+	border-bottom: 1px solid #AEC29A !important;
+	background: none !important;
+}
+
+ul.ja-bullettin span {
+	color: #405F10 !important;
+}
+
+/* Footer */
+#ja-footerwrap {
+	background: url(../../images/grass/mainwrap-bg.jpg) repeat-x center top;
+}
+
+#ja-footer {
+	background: none !important;
+	border-top: 1px solid #AEC29A;
+	color: #405F10;
+}
+
+#ja-footer a {
+	color: #9A4600;
+}
+
+#ja-footer a:hover,
+#ja-footer a:focus,
+#ja-footer a:active {
+	color: #507225;
+}
+
+#ja-footer li {
+	background: url(../../images/arrow2.gif) no-repeat left center;
+}
+
+/* Typography */
+pre, .code {
+	background: #E8E8EB;
+	border-left: 5px solid #507225;
+}
+
+blockquote span.open {
+	background: url(../../images/movie/so-q.gif) no-repeat left top;
+}
+
+blockquote span.close {
+	background: url(../../images/movie/sc-q.gif) no-repeat bottom right;
+}
+
+/* Dropcap */
+.dropcap {
+	color: #507225;
+}
+
+/* Note Style */
+p.stickynote {
+	background: url(../../images/icon-sticky.png) no-repeat left top #E8E8EB;
+	border: 1px solid #B7B7B7;
+}
+
+p.download {
+	background: url(../../images/icon-download.png) no-repeat left top #E8E8EB;
+	border: 1px solid #B7B7B7;
+}
+
+/* Check list */
+ul.checklist li {
+	background: url(../../images/grass/icon-checklist.gif) no-repeat 0 6px !important;
+}
+
+/* Check list (star) */
+ul.stars {
+	list-style: none;
+}
+
+ul.stars li {
+	background: url(../../images/grass/icon-star.gif) no-repeat 0 3px;
+}
+
+/* Check list arrow */
+ul.arrow li {
+	background: url(../../images/grass/icon-arrow.gif) no-repeat 3px 7px;
+}
+
+/* Bignumber */
+.bignumber {
+	background: url(../../images/grass/ol-bg.gif) no-repeat top left;
+}
+
+/* Talking box. Thinking box. */
+div.bubble1 div {
+	background: url(../../images/grass/bub1-br.gif) no-repeat bottom right;
+}
+
+div.bubble1 div div {
+	background: url(../../images/grass/bub1-bl.gif) no-repeat bottom left;
+}
+
+div.bubble1 div div div {
+	background: url(../../images/grass/bub1-tr.gif) no-repeat top right;
+}
+
+div.bubble1 div div div div {
+	background: url(../../images/grass/bub1-tl.gif) no-repeat top left;
+}
+
+div.bubble2 div {
+	background: url(../../images/grass/bub2-br.gif) no-repeat bottom right;
+}
+
+div.bubble2 div div {
+	background: url(../../images/grass/bub2-bl.gif) no-repeat bottom left;
+}
+
+div.bubble2 div div div {
+	background: url(../../images/grass/bub2-tr.gif) no-repeat top right;
+}
+
+div.bubble2 div div div div {
+	background: url(../../images/grass/bub2-tl.gif) no-repeat top left;
+}
+
+div.bubble3 div {
+	background: url(../../images/grass/bub3-br.gif) no-repeat bottom right;
+}
+
+div.bubble3 div div {
+	background: url(../../images/grass/bub3-bl.gif) no-repeat bottom left;
+}
+
+div.bubble3 div div div {
+	background: url(../../images/grass/bub3-tr.gif) no-repeat top right;
+}
+
+div.bubble3 div div div div {
+	background: url(../../images/grass/bub3-tl.gif) no-repeat top left;
+}
+
+div.bubble4 div {
+	background: url(../../images/grass/bub4-br.gif) no-repeat bottom right;
+}
+
+div.bubble4 div div {
+	background: url(../../images/grass/bub4-bl.gif) no-repeat bottom left;
+}
+
+div.bubble4 div div div {
+	background: url(../../images/grass/bub4-tr.gif) no-repeat top right;
+}
+
+div.bubble4 div div div div {
+	background: url(../../images/grass/bub4-tl.gif) no-repeat top left;
+}
+
+/* Legend */
+.legend-title {
+	background: #DEDFE3;
+	color: #507225;
+}
+
+.legend {
+	border: 1px solid #B7B7B7;
+}
+
+/* Split menu */
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus,
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	color: #BECC99;
+	background: url(../../images/grass/arrow-3.gif) no-repeat center bottom;
+}
+
+/* CSS menu */
+#ja-cssmenu li:hover a,
+#ja-cssmenu li.sfhover a,
+#ja-cssmenu li.havechildsfhover a,
+#ja-cssmenu li.havechild-activesfhover a,
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	color: #BECC99;
+	background: url(../../images/grass/arrow-3.gif) no-repeat center bottom;
+}
+
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu ul li:hover,
+#ja-cssmenu ul li.sfhover,
+#ja-cssmenu ul li.havesubchildsfhover,
+#ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul ul li.sfhover,
+#ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background: #324D08;
+	color: #FFFFFF !important;
+}
